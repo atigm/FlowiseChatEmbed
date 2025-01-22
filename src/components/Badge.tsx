@@ -51,7 +51,7 @@ export const Badge = (props: Props) => {
           {props.footer?.text ?? 'Powered by'}
           <a
             ref={liteBadge}
-            href={props.footer?.companyLink ?? 'https://tiktof'}
+            href={props.footer?.companyLink ?? 'https://tiktof.com'}
             target="_blank"
             rel="noopener noreferrer"
             class="lite-badge"
